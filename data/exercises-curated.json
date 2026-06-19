@@ -1,0 +1,90 @@
+[
+  {
+    "id": "0001",
+    "name": "3/4 sit-up",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0001-2gPfomN.gif"
+  },
+  {
+    "id": "0002",
+    "name": "45\u00b0 side bend",
+    "category": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0002-Hy9D21L.gif"
+  },
+  {
+    "id": "1274",
+    "name": "deep push up",
+    "category": "chest",
+    "equipment": "dumbbell",
+    "target": "pectorals",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1274-vptOQ4N.gif"
+  },
+  {
+    "id": "0285",
+    "name": "dumbbell alternate biceps curl",
+    "category": "upper arms",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0285-BU15nH4.gif"
+  },
+  {
+    "id": "0023",
+    "name": "barbell alternate biceps curl",
+    "category": "upper arms",
+    "equipment": "barbell",
+    "target": "biceps",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0023-Yza7XrQ.gif"
+  },
+  {
+    "id": "0024",
+    "name": "barbell bench front squat",
+    "category": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0024-Y7YcmIJ.gif"
+  },
+  {
+    "id": "0025",
+    "name": "barbell bench press",
+    "category": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0025-EIeI8Vf.gif"
+  },
+  {
+    "id": "0517",
+    "name": "kettlebell advanced windmill",
+    "category": "waist",
+    "equipment": "kettlebell",
+    "target": "abs",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0517-Kal9cQQ.gif"
+  },
+  {
+    "id": "0007",
+    "name": "alternate lateral pulldown",
+    "category": "back",
+    "equipment": "cable",
+    "target": "lats",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0007-4IKbhHV.gif"
+  },
+  {
+    "id": "0968",
+    "name": "band alternating biceps curl",
+    "category": "upper arms",
+    "equipment": "resistance band",
+    "target": "biceps",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0968-3omWx6P.gif"
+  },
+  {
+    "id": "0652",
+    "name": "pull-up",
+    "category": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "gifUrl": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0652-lBDjFxJ.gif"
+  }
+]
