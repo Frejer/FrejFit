@@ -86,11 +86,7 @@ function buildPlan(profile) {
     const equipment = exercise.equipment.toLowerCase();
 
     if (profile.trainingLocation === 'home') {
-      return (
-        equipment === 'body weight' ||
-        selectedEquipment.has(equipment) ||
-        (equipment === 'band' && selectedEquipment.has('resistance band'))
-      );
+      return equipment === 'body weight' || selectedEquipment.has(equipment);
     }
 
     return selectedEquipment.has(equipment) || equipment === 'body weight';
