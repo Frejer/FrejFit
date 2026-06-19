@@ -65,7 +65,7 @@ function monthNow() {
   return new Date().toISOString().slice(0, 7);
 }
 
-function getBmi(weightKg, heightCm) {
+function getBMI(weightKg, heightCm) {
   const heightM = heightCm / 100;
   return Number((weightKg / (heightM * heightM)).toFixed(1));
 }
@@ -270,7 +270,15 @@ onboardingForm.addEventListener('submit', (event) => {
   const height = Number(form.get('height'));
   const age = Number(form.get('age'));
 
-  if (!trainingLocation || !weight || !height || !age) {
+  if (
+    !trainingLocation ||
+    !Number.isFinite(weight) ||
+    !Number.isFinite(height) ||
+    !Number.isFinite(age) ||
+    weight <= 0 ||
+    height <= 0 ||
+    age <= 0
+  ) {
     onboardingMessage.textContent = 'Please fill in all required onboarding fields.';
     return;
   }
@@ -292,7 +300,7 @@ onboardingForm.addEventListener('submit', (event) => {
     weight,
     height,
     age,
-    bmi: getBmi(weight, height),
+    bmi: getBMI(weight, height),
   };
   state.statsHistory.push(entry);
   saveLocalStorage(STORAGE_KEYS.statsHistory, state.statsHistory);
@@ -318,7 +326,8 @@ progressForm.addEventListener('submit', (event) => {
   }
 
   if (state.monthlyPhotos[month]) {
-    progressMessage.textContent = 'A photo for this month already exists (one upload per month).';
+    progressMessage.textContent =
+      'A photo for this month already exists. Please select a different month.';
     return;
   }
 
